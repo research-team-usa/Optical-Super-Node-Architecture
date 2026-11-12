@@ -1,3 +1,6 @@
+<img width="3584" height="1184" alt="Optical-Super-Node-Architecture" src="https://github.com/user-attachments/assets/82956706-535e-4ca2-9370-e43f1b7558cf" />
+
+
 # Optical Super-Node Architecture (KOBC $\leftrightarrow$ PCME-RAM & CAMM)
 
 > **Lead Architect:** Emanuel Schaaf  
