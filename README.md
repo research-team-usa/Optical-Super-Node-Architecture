@@ -46,5 +46,5 @@ python 03_PCME_RAM_CAMM_Integration/kobc_pcme_camm_supernode_simulation.py
 *Note: Simulations output high-resolution MP4/GIF animations and static PNG state dashboards dynamically generated via Matplotlib.*
 
 ## Licensing
-This project is released under the **Open Origin License (OOL)**. It guarantees open access for public technological advancement while protecting functional integrity, local data sovereignty, and mandatory architectural attribution.
+This project is released under the **License **. It guarantees open access for public technological advancement while protecting functional integrity, local data sovereignty, and mandatory architectural attribution.
 „Official documentation of the Open Source Infrastructure 2026.“
