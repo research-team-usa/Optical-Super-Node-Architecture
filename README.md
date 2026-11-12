@@ -14,26 +14,35 @@ By eliminating CMOS Transimpedance Amplifiers (TIAs), volatile DRAM refresh cycl
 
 ```text
 📦 Optical-Super-Node-Architecture
+┃
 ┣ 📂 01_Printed_Optical_Inlay
+┃ ┃
 ┃ ┣ 📜 a-Si-H_Waveguide_Spec.pdf
 ┃ ┣ 📜 bill-of-materials-cost-analysis.pdf
 ┃ ┣ 📜 optische_siliziumbruecke_simulation.py
+┃ ┃
 ┃ ┗ 📂 Simulation_Results
 ┃   ┣ 📜 optische_siliziumbruecke_final_state.png
 ┃   ┗ 📜 optische_siliziumbruecke_simulation.mp4
 ┃
+┃
 ┣ 📂 02_KOBC_Socket_Adapter
+┃ ┃
 ┃ ┣ 📜 Kinematic-Optical-Bridge-Cartridge-(KOBC).pdf
 ┃ ┣ 📜 Manufacturing_&_Economic_Specification.pdf
 ┃ ┣ 📜 kobc_socket_adapter_simulation.py
+┃ ┃
 ┃ ┗ 📂 Simulation_Results
 ┃   ┣ 📜 kobc_socket_adapter_final_state.png
 ┃   ┗ 📜 kobc_socket_adapter_simulation.mp4
 ┃
+┃
 ┣ 📂 03_PCME_RAM_CAMM_Integration
+┃ ┃
 ┃ ┣ 📜 KOBC_to_PCME-RAM_&_CAMM-Super-Node.pdf
 ┃ ┣ 📜 KOBC_+_PCME-RAM_+_CAMM_Super-Node.pdf
 ┃ ┣ 📜 kobc_pcme_camm_supernode_simulation.py
+┃ ┃
 ┃ ┗ 📂 Simulation_Results
 ┃   ┣ 📜 kobc_pcme_camm_supernode_final_state.png
 ┃   ┗ 📜 kobc_pcme_camm_supernode_simulation.mp4
