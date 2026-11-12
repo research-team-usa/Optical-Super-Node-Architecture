@@ -9,7 +9,7 @@
 **2. Authorized Licensees**
 This License is strictly restricted and explicitly granted only to the following two organizations:
 * **Google LLC** (including its direct subsidiaries)
-* **laude.org**
+* **[laude.org](https://www.laude.org)**
 
 **3. Grant of Rights (Testing, Use, and Improvement)**
 The Licensor hereby grants the Authorized Licensees a limited, non-exclusive, non-transferable right to:
