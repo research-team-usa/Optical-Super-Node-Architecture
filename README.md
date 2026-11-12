@@ -3,34 +3,52 @@
 > **Lead Architect:** Emanuel Schaaf  
 > **Framework:** Open Origin Architecture  
 > **Organization:** `research-team-usa`  
-> **License:** RESTRICTED TECHNOLOGY EVALUATION AND USE LICENSE  
+> **License:** RESTRICTED TECHNOLOGY EVALUATION AND USE LICENSE 
 
 ## Overview
 The **Optical Super-Node Architecture** is a fundamental reimagining of high-performance computing interconnects and memory fabrics. Designed to overcome the physical copper escape walls, monolithic silicon interposer limitations, and Von Neumann addressing bottlenecks of current AI accelerators (e.g., TPU-8/9 class architectures), this framework delivers **819.2 TB/s of bidirectional bandwidth** at sub-nanosecond latencies.
 
 By eliminating CMOS Transimpedance Amplifiers (TIAs), volatile DRAM refresh cycles, and OS-level page table walks, the architecture achieves a **136x reduction in latency** and a **95% reduction in interconnect cost** compared to conventional HBM3e/HBM4 and CoWoS packaging.
 
+## Repository Structure & File Mapping
+
+```text
+📦 Optical-Super-Node-Architecture
+┣ 📂 01_Printed_Optical_Inlay
+┃ ┣ 📜 a-Si-H_Waveguide_Spec.md
+┃ ┣ 📜 bill-of-materials-cost-analysis.md
+┃ ┗ 📜 optische_siliziumbruecke_simulation.py
+┣ 📂 02_KOBC_Socket_Adapter
+┃ ┣ 📜 Kinematic-Optical-Bridge-Cartridge-(KOBC).md
+┃ ┣ 📜 Manufacturing_&_Economic_Specification.md
+┃ ┗ 📜 kobc_socket_adapter_simulation.py
+┣ 📂 03_PCME_RAM_CAMM_Integration
+┃ ┣ 📜 KOBC_to_PCME-RAM_&_CAMM-Super-Node.md
+┃ ┣ 📜 KOBC_+_PCME-RAM_+_CAMM_Super-Node.md
+┃ ┗ 📜 kobc_pcme_camm_supernode_simulation.py
+┣ 📜 LICENSE (Open Origin License - OOL)
+┗ 📜 README.md
+```
+
 ## The Three Technological Pillars
 
-### 1. Printed $\text{a-Si:H}$ Optical Waveguide Inlay
+### 1. Printed $\text{a-Si:H}$ Optical Waveguide Inlay (`01_Printed_Optical_Inlay`)
 A $27\text{ }\mu\text{m}$ thin, compliant optical bridge printed directly into the organic package substrate using UV-Nanoimprint Lithography (UV-NIL) and photonic curing. 
 * **Mechanics:** A $20\text{ }\mu\text{m}$ siloxane elastomer buffer eliminates thermomechanical shear stress ($12.46\text{ MPa} \rightarrow 0.62\text{ MPa}$).
 * **Optics:** Hydrogenated amorphous silicon ($\text{a-Si:H}$) waveguides achieve $1.8\text{ dB/cm}$ loss, transporting data at **$0.461\text{ pJ/bit}$**.
 
-### 2. Kinematic Optical Bridge Cartridge (KOBC)
+### 2. Kinematic Optical Bridge Cartridge (`02_KOBC_Socket_Adapter`)
 A plug-and-play, field-replaceable optical socket adapter that bridges the compute die and the memory pool without fragile electrical micro-bumps.
 * **Kinematics:** A Maxwell 3-V kinematic mount utilizing synthetic ruby microspheres and KOH-etched $\langle 111 \rangle$ silicon V-grooves guarantees **$57.4\text{ nm}$ mechanical repeatability**.
 * **Interface:** Micro-castellated silicone pads ($S = 5.0$) eliminate hydrostatic locking, reducing required clamping force from $475\text{ N}$ to just $7.05\text{ N}$.
 
-### 3. PCME-RAM & CAMM Super-Node
+### 3. PCME-RAM & CAMM Super-Node (`03_PCME_RAM_CAMM_Integration`)
 A non-volatile, phonon-coupled magnetoelectric memory fabric addressed natively via cryptographic content hashes rather than physical memory coordinates.
-* **Direct Transduction:** Ballistic UTC-Photodiodes drive quarter-wave $\text{Al}_{0.68}\text{Sc}_{0.32}\text{N}$ acoustic resonators, converting optical bits directly into $8.0\text{ GHz}$ phonon strain pulses ($243.0\text{ ppm}$).
-* **Spin Dynamics:** Villari magnetoelastic fields ($10.94\text{ mT}$) trigger deterministic Landau-Lifshitz-Gilbert (LLG) magnetization reversal in rare-earth-free Galfenol ($\text{Fe}_{81}\text{Ga}_{19}$) within **$77.63\text{ ps}$** at **$15.63\text{ aJ/bit}$**.
-* **CAMM (Merkle-DAG System RAM):** An unrolled Galois-SipHash hardware pipeline deduplicates multi-agent KV-caches on the fly, delivering effective bandwidths exceeding **$1.6\text{ PB/s}$** with an end-to-end round-trip latency of exactly **$694.4\text{ ps}$**.
+* **Direct Transduction:** Ballistic UTC-Photodiodes drive quarter-wave Al<sub>0.68</sub>Sc<sub>0.32</sub>N acoustic resonators, converting optical bits directly into **8.0 GHz** phonon strain pulses (**243.0 ppm**).
+* **Spin Dynamics:** Villari magnetoelastic fields (**10.94 mT**) trigger deterministic Landau-Lifshitz-Gilbert (LLG) magnetization reversal in rare-earth-free Galfenol (Fe<sub>81</sub>Ga<sub>19</sub>) within **77.63 ps** at **15.63 aJ/bit**.
+* **CAMM (Merkle-DAG System RAM):** An unrolled Galois-SipHash hardware pipeline deduplicates multi-agent KV-caches on the fly, delivering effective bandwidths exceeding **1.6 PB/s** with an end-to-end round-trip latency of exactly **694.4 ps**.
 
-## Repository Structure & Simulations
-
-This repository contains the complete first-principles mathematical derivations, stoichiometric chemical mixing ratios, mass balances, and USD cost analyses for all three stages. 
+## Simulations
 
 To validate the physical models, execute the headless Python simulations included in each directory:
 ```bash
