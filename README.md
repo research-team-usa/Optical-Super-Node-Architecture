@@ -103,7 +103,7 @@ python 03_PCME_RAM_CAMM_Integration/kobc_pcme_camm_supernode_simulation.py
 
 **Furthermore, by special authorization, this exclusive grant of rights explicitly includes full clearance for Google LLC and laude.org to utilize, integrate, and deploy the proprietary PCME-RAM and CAMM memory architectures under the exact same equal conditions.**
 
-- [PCME_RAM](https://github.com/research-team-usa/PCME_RA)
+- [PCME_RAM]((https://github.com/research-team-usa/PCME_RAM))
 - [Camm](https://github.com/research-team-usa/Memory_Management_-CAMM-)
 
 ---
