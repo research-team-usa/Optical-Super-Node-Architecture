@@ -95,14 +95,14 @@ $$
 
 The high-index waveguide core ($n_{\text{core}} = 3.48$ at $\lambda_0 = 1550\text{ nm}$) is synthesized from liquid **Cyclopentasilane ($\text{Si}_5\text{H}_{10}$)**, a cyclic hydrosilane with molar mass $M_{\text{CPS}} = 150.505\text{ g/mol}$, density $\rho_{\text{CPS}} = 0.963\text{ g/cm}^3$, melting point $-10.5\text{ }^\circ\text{C}$, and boiling point $194\text{ }^\circ\text{C}$.
 
-**Step 1 — Anaerobic UV Ring-Opening Polymerization ($\lambda = 365\text{ nm}$):**
+**Step 1 Anaerobic UV Ring-Opening Polymerization ($\lambda = 365\text{ nm}$):**
 Under a strictly oxygen-free nitrogen atmosphere ($\text{O}_2 < 0.1\text{ ppm}$, $\text{H}_2\text{O} < 0.1\text{ ppm}$), liquid cyclopentasilane (formulated at $35\text{ vol\%}$ in anhydrous cyclooctane to tune ink viscosity to $\eta \approx 8\text{ mPa}\cdot\text{s}$) is exposed to $365\text{ nm}$ UV light ($E_{\text{photon}} = 3.40\text{ eV}$). This cleaves strained $\text{Si-Si}$ ring bonds ($E_{\text{bond}} \approx 2.3\text{ eV}$) without breaking stronger $\text{Si-H}$ bonds ($3.1\text{ eV}$), generating biradical chains that crosslink into a non-volatile solid polysilane gel:
 
 $$
 n\,\text{Si}_5\text{H}_{10}\text{ (l)} \xrightarrow{h\nu\; (\lambda = 365\text{ nm}),\; 25\,^\circ\text{C}} \cdot\text{SiH}_2\text{-(SiH}_2\text{)}_3\text{-SiH}_2\cdot \longrightarrow \text{-(SiH}_2\text{)}_{5n}\text{- (s, polysilane network)}
 $$
 
-**Step 2 — Microsecond Photonic Curing under Forming Gas ($\text{N}_2 / \text{H}_2$):**
+**Step 2 Microsecond Photonic Curing under Forming Gas ($\text{N}_2 / \text{H}_2$):**
 Following UV-Nanoimprint patterning of the polysilane gel, the substrate is held on a temperature-controlled chuck at $T_{\text{chuck}} = 160\text{ }^\circ\text{C}$ under a laminar flow of forming gas ($90\%\text{ N}_2 + 10\%\text{ H}_2$). High-intensity microsecond light pulses ($\tau_{\text{pulse}} = 80\text{ }\mu\text{s}$, radiant fluence $F = 1.8\text{ J/cm}^2$, spectral band $\lambda = 380\text{–}650\text{ nm}$) are absorbed solely within the $220\text{ nm}$ silicon layer. Because the thermal diffusion length in the underlying $1.5\text{ }\mu\text{m}$ $\text{SiO}_2$ bottom cladding during an $80\text{ }\mu\text{s}$ pulse is:
 
 $$
@@ -121,7 +121,7 @@ $$
 C_{\text{H}} = \frac{x}{1 + x} = \frac{0.10}{1.10} = 0.0909 \quad (9.09\text{ at.\% H})
 $$
 
-**Step 3 — Dangling Bond Passivation Equilibrium:**
+**Step 3 Dangling Bond Passivation Equilibrium:**
 Any residual paramagnetic neutral silicon dangling bonds ($D^0$, denoted $\text{Si}_3\equiv\text{Si}\cdot$) are passivated by atomic hydrogen diffusing through the amorphous network during the tail of the photonic pulse:
 
 $$
