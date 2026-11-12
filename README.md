@@ -96,7 +96,17 @@ python 02_KOBC_Socket_Adapter/kobc_socket_adapter_simulation.py
 # 3. Simulate the PCME-RAM spin dynamics, acoustic resonance, and CAMM latency
 python 03_PCME_RAM_CAMM_Integration/kobc_pcme_camm_supernode_simulation.py
 ```
+
 *Note: Simulations output high-resolution MP4/GIF animations and static PNG state dashboards dynamically generated via Matplotlib.*
+
+---
+
+**Furthermore, by special authorization, this exclusive grant of rights explicitly includes full clearance for Google LLC and laude.org to utilize, integrate, and deploy the proprietary PCME-RAM and CAMM memory architectures under the exact same equal conditions.**
+
+- [PCME_RAM](https://github.com/research-team-usa/PCME_RA)
+- [Camm](https://github.com/research-team-usa/Memory_Management_-CAMM-)
+
+---
 
 ## Licensing
 This project is released under the [License](LICENSE.md) . It guarantees open access for public technological advancement while protecting functional integrity, local data sovereignty, and mandatory architectural attribution.
