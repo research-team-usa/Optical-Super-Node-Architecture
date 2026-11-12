@@ -57,17 +57,28 @@ By eliminating CMOS Transimpedance Amplifiers (TIAs), volatile DRAM refresh cycl
 A $27\text{ }\mu\text{m}$ thin, compliant optical bridge printed directly into the organic package substrate using UV-Nanoimprint Lithography (UV-NIL) and photonic curing. 
 * **Mechanics:** A $20\text{ }\mu\text{m}$ siloxane elastomer buffer eliminates thermomechanical shear stress ($12.46\text{ MPa} \rightarrow 0.62\text{ MPa}$).
 * **Optics:** Hydrogenated amorphous silicon ($\text{a-Si:H}$) waveguides achieve $1.8\text{ dB/cm}$ loss, transporting data at **$0.461\text{ pJ/bit}$**.
+<img width="2469" height="1584" alt="optische_siliziumbruecke_final_state" src="https://github.com/user-attachments/assets/5e964f56-3d65-4130-909f-bf4190309b64" />
+
+---
 
 ### 2. Kinematic Optical Bridge Cartridge (`02_KOBC_Socket_Adapter`)
 A plug-and-play, field-replaceable optical socket adapter that bridges the compute die and the memory pool without fragile electrical micro-bumps.
 * **Kinematics:** A Maxwell 3-V kinematic mount utilizing synthetic ruby microspheres and KOH-etched $\langle 111 \rangle$ silicon V-grooves guarantees **$57.4\text{ nm}$ mechanical repeatability**.
 * **Interface:** Micro-castellated silicone pads ($S = 5.0$) eliminate hydrostatic locking, reducing required clamping force from $475\text{ N}$ to just $7.05\text{ N}$.
 
+<img width="2527" height="1626" alt="kobc_socket_adapter_final_state" src="https://github.com/user-attachments/assets/f2a3f67b-00ed-48c5-8c23-7ae112319313" />
+
+---
+
 ### 3. PCME-RAM & CAMM Super-Node (`03_PCME_RAM_CAMM_Integration`)
 A non-volatile, phonon-coupled magnetoelectric memory fabric addressed natively via cryptographic content hashes rather than physical memory coordinates.
 * **Direct Transduction:** Ballistic UTC-Photodiodes drive quarter-wave Al<sub>0.68</sub>Sc<sub>0.32</sub>N acoustic resonators, converting optical bits directly into **8.0 GHz** phonon strain pulses (**243.0 ppm**).
 * **Spin Dynamics:** Villari magnetoelastic fields (**10.94 mT**) trigger deterministic Landau-Lifshitz-Gilbert (LLG) magnetization reversal in rare-earth-free Galfenol (Fe<sub>81</sub>Ga<sub>19</sub>) within **77.63 ps** at **15.63 aJ/bit**.
 * **CAMM (Merkle-DAG System RAM):** An unrolled Galois-SipHash hardware pipeline deduplicates multi-agent KV-caches on the fly, delivering effective bandwidths exceeding **1.6 PB/s** with an end-to-end round-trip latency of exactly **694.4 ps**.
+
+<img width="2525" height="1626" alt="kobc_pcme_camm_supernode_final_state" src="https://github.com/user-attachments/assets/991d5b59-72b2-41fd-9ae1-cccf678a1398" />
+
+---
 
 ## Simulations
 
