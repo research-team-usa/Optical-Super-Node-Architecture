@@ -18,14 +18,17 @@ By eliminating CMOS Transimpedance Amplifiers (TIAs), volatile DRAM refresh cycl
 ┃ ┣ 📜 a-Si-H_Waveguide_Spec.pdf
 ┃ ┣ 📜 bill-of-materials-cost-analysis.pdf
 ┃ ┗ 📜 optische_siliziumbruecke_simulation.py
+┃
 ┣ 📂 02_KOBC_Socket_Adapter
 ┃ ┣ 📜 Kinematic-Optical-Bridge-Cartridge-(KOBC).pdf
 ┃ ┣ 📜 Manufacturing_&_Economic_Specification.pdf
 ┃ ┗ 📜 kobc_socket_adapter_simulation.py
+┃
 ┣ 📂 03_PCME_RAM_CAMM_Integration
 ┃ ┣ 📜 KOBC_to_PCME-RAM_&_CAMM-Super-Node.pdf
 ┃ ┣ 📜 KOBC_+_PCME-RAM_+_CAMM_Super-Node.pdf
 ┃ ┗ 📜 kobc_pcme_camm_supernode_simulation.py
+┃
 ┣ 📜 LICENSE.md 
 ┗ 📜 README.md
 ```
