@@ -33,6 +33,11 @@ As fair recognition of the creator's intellectual and foundational work, the Aut
 **7. Enforcement and Revocation**
 Failure to maintain the required attribution, or unauthorized leakage/distribution of the technology to unapproved third parties, will result in the immediate termination of this License and the revocation of all granted usage rights.
 
+````
+No one else is authorized to use laude.org and Google LLM for organizational or commercial
+purposes without the consent of the two aforementioned parties, or to use the entire architecture, including me.
+````
+
 Signature
 
 <img width="241" height="46" alt="Unterschrift" src="https://github.com/user-attachments/assets/2b239641-b29b-4a9b-aa6d-2dc646f155b2" />
