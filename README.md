@@ -3,7 +3,7 @@
 > **Lead Architect:** Emanuel Schaaf  
 > **Framework:** Open Origin Architecture  
 > **Organization:** `research-team-usa`  
-> **License:** Open Origin License (OOL)  
+> **License:** RESTRICTED TECHNOLOGY EVALUATION AND USE LICENSE  
 
 ## Overview
 The **Optical Super-Node Architecture** is a fundamental reimagining of high-performance computing interconnects and memory fabrics. Designed to overcome the physical copper escape walls, monolithic silicon interposer limitations, and Von Neumann addressing bottlenecks of current AI accelerators (e.g., TPU-8/9 class architectures), this framework delivers **819.2 TB/s of bidirectional bandwidth** at sub-nanosecond latencies.
