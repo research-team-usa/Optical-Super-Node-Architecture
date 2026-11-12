@@ -28,7 +28,7 @@ To establish the exact physical weight added to an accelerator package by a full
 
 ### 1.1 Layer-by-Layer Mass Equations
 
-1. **Layer 1 — Cured DVS-BCB Planarization Prime Coat ($t_{\text{BCB}} = 2.00\text{ }\mu\text{m}$, $\rho_{\text{BCB}} = 1.05\text{ g/cm}^3$):**
+1. **Layer 1 Cured DVS-BCB Planarization Prime Coat ($t_{\text{BCB}} = 2.00\text{ }\mu\text{m}$, $\rho_{\text{BCB}} = 1.05\text{ g/cm}^3$):**
 
 $$
 V_{\text{BCB}} = A_{\text{bridge}} \cdot t_{\text{BCB}} = 0.75\text{ cm}^2 \times 2.00 \times 10^{-4}\text{ cm} = 1.50 \times 10^{-4}\text{ cm}^3 = 0.15000\text{ mm}^3
@@ -38,7 +38,7 @@ $$
 m_{\text{BCB,net}} = V_{\text{BCB}} \cdot \rho_{\text{BCB}} = 1.50 \times 10^{-4}\text{ cm}^3 \times 1.05\text{ g/cm}^3 = 1.575 \times 10^{-4}\text{ g} = 157.50\text{ }\mu\text{g}
 $$
 
-2. **Layer 2 — Siloxane Elastomer Shear-Buffer ($h_{\text{buf}} = 20.00\text{ }\mu\text{m}$, $\rho_{\text{buf}} = 1.08\text{ g/cm}^3$):**
+2. **Layer 2 Siloxane Elastomer Shear-Buffer ($h_{\text{buf}} = 20.00\text{ }\mu\text{m}$, $\rho_{\text{buf}} = 1.08\text{ g/cm}^3$):**
 
 $$
 V_{\text{buf}} = A_{\text{bridge}} \cdot h_{\text{buf}} = 0.75\text{ cm}^2 \times 2.00 \times 10^{-3}\text{ cm} = 1.50 \times 10^{-3}\text{ cm}^3 = 1.50000\text{ mm}^3
@@ -48,7 +48,7 @@ $$
 m_{\text{buf,net}} = V_{\text{buf}} \cdot \rho_{\text{buf}} = 1.50 \times 10^{-3}\text{ cm}^3 \times 1.08\text{ g/cm}^3 = 1.620 \times 10^{-3}\text{ g} = 1620.00\text{ }\mu\text{g}
 $$
 
-3. **Layer 3 — Bottom VUV-$\text{SiO}_2$ Optical Cladding ($t_{\text{clad,bot}} = 1.50\text{ }\mu\text{m}$, $\rho_{\text{SiO}_2} = 2.20\text{ g/cm}^3$):**
+3. **Layer 3 Bottom VUV-$\text{SiO}_2$ Optical Cladding ($t_{\text{clad,bot}} = 1.50\text{ }\mu\text{m}$, $\rho_{\text{SiO}_2} = 2.20\text{ g/cm}^3$):**
 
 $$
 V_{\text{clad,bot}} = 0.75\text{ cm}^2 \times 1.50 \times 10^{-4}\text{ cm} = 1.125 \times 10^{-4}\text{ cm}^3 = 0.11250\text{ mm}^3
@@ -58,7 +58,7 @@ $$
 m_{\text{clad,bot,net}} = 1.125 \times 10^{-4}\text{ cm}^3 \times 2.20\text{ g/cm}^3 = 2.475 \times 10^{-4}\text{ g} = 247.50\text{ }\mu\text{g}
 $$
 
-4. **Layer 4 — Imprinted $\text{a-Si:H}$ Waveguide Cores ($3000$ Ribs + Imprint Slab, $t_{\text{eff}} = 0.050\text{ }\mu\text{m}$, $\rho_{\text{a-Si:H}} = 2.25\text{ g/cm}^3$):**
+4. **Layer 4 Imprinted $\text{a-Si:H}$ Waveguide Cores ($3000$ Ribs + Imprint Slab, $t_{\text{eff}} = 0.050\text{ }\mu\text{m}$, $\rho_{\text{a-Si:H}} = 2.25\text{ g/cm}^3$):**
 The $3000$ waveguide cores ($w = 450\text{ nm}$, $h = 220\text{ nm}$, $L = 0.50\text{ cm}$) occupy a rib volume of $V_{\text{ribs}} = 3000 \times (4.5 \times 10^{-5}\text{ cm}) \times (2.2 \times 10^{-5}\text{ cm}) \times 0.50\text{ cm} = 1.485 \times 10^{-6}\text{ cm}^3$, plus the residual nanoimprint stabilization slab outside the etched routing zones ($V_{\text{slab}} = 2.265 \times 10^{-6}\text{ cm}^3$):
 
 $$
@@ -69,7 +69,7 @@ $$
 m_{\text{a-Si:H,net}} = 3.75 \times 10^{-6}\text{ cm}^3 \times 2.25\text{ g/cm}^3 = 8.4375 \times 10^{-6}\text{ g} \approx 8.44\text{ }\mu\text{g}
 $$
 
-5. **Layer 5 — Top VUV-$\text{SiO}_2$ Passivation Cladding ($t_{\text{clad,top}} = 1.28\text{ }\mu\text{m}$ average, $\rho_{\text{SiO}_2} = 2.20\text{ g/cm}^3$):**
+5. **Layer 5 Top VUV-$\text{SiO}_2$ Passivation Cladding ($t_{\text{clad,top}} = 1.28\text{ }\mu\text{m}$ average, $\rho_{\text{SiO}_2} = 2.20\text{ g/cm}^3$):**
 
 $$
 V_{\text{clad,top}} = 0.75\text{ cm}^2 \times 1.28 \times 10^{-4}\text{ cm} = 0.960 \times 10^{-4}\text{ cm}^3 = 0.09600\text{ mm}^3
@@ -79,7 +79,7 @@ $$
 m_{\text{clad,top,net}} = 0.960 \times 10^{-4}\text{ cm}^3 \times 2.20\text{ g/cm}^3 = 2.112 \times 10^{-4}\text{ g} = 211.20\text{ }\mu\text{g}
 $$
 
-6. **Layer 6 — Dual Index-Matched Silicone Socket Pads ($2 \times 0.15\text{ mm} \times 15.0\text{ mm}$, $t_{\text{pad}} = 2.00\text{ }\mu\text{m}$, $\rho_{\text{pad}} = 1.12\text{ g/cm}^3$):**
+6. **Layer 6 Dual Index-Matched Silicone Socket Pads ($2 \times 0.15\text{ mm} \times 15.0\text{ mm}$, $t_{\text{pad}} = 2.00\text{ }\mu\text{m}$, $\rho_{\text{pad}} = 1.12\text{ g/cm}^3$):**
 Total pad area $A_{\text{pads}} = 2 \times 0.015\text{ cm} \times 1.50\text{ cm} = 0.045\text{ cm}^2$:
 
 $$
